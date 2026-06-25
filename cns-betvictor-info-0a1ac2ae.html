@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>了解 betvictor 的用途与场景</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #fafaf9;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.7;
+            color: #1f1f1f;
+            padding: 2rem 1.25rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+        }
+        .hero {
+            margin-bottom: 2.8rem;
+        }
+        .hero p:first-child {
+            font-size: 0.9rem;
+            letter-spacing: 0.2px;
+            color: #7f7f7f;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+        .hero h1 {
+            font-size: 2.2rem;
+            font-weight: 550;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            color: #1b1b1b;
+            margin-bottom: 1.2rem;
+            max-width: 540px;
+        }
+        .hero .sub {
+            font-size: 1.05rem;
+            color: #4a4a4a;
+            max-width: 500px;
+        }
+        .intro-text {
+            font-size: 1rem;
+            margin-bottom: 2.2rem;
+            color: #2e2e2e;
+        }
+        .intro-text a {
+            color: #1b4d3d;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+        .intro-text a:hover {
+            color: #2b7a5e;
+        }
+        .feature-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin: 2.5rem 0 2.2rem 0;
+        }
+        .feature-item {
+            border-left: 3px solid #d4d4d4;
+            padding-left: 1.25rem;
+        }
+        .feature-item h3 {
+            font-size: 1.1rem;
+            font-weight: 550;
+            margin-bottom: 0.3rem;
+            color: #1f1f1f;
+        }
+        .feature-item p {
+            font-size: 0.95rem;
+            color: #4a4a4a;
+        }
+        .scenario-block {
+            background-color: #f2f0ee;
+            padding: 1.8rem 1.5rem;
+            border-radius: 16px;
+            margin: 2rem 0 2.5rem 0;
+        }
+        .scenario-block .label {
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+            color: #6b6b6b;
+            margin-bottom: 0.7rem;
+        }
+        .scenario-block p {
+            font-size: 0.98rem;
+            color: #2c2c2c;
+        }
+        .faq-note {
+            border-top: 1px solid #dcdcdc;
+            padding-top: 2rem;
+            margin-top: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .faq-note details {
+            margin-bottom: 0.8rem;
+        }
+        .faq-note summary {
+            font-weight: 530;
+            font-size: 0.98rem;
+            color: #1b4d3d;
+            cursor: pointer;
+            padding: 0.3rem 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        .faq-note summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-note summary::before {
+            content: "▸ ";
+            font-size: 1.1rem;
+            color: #8f8f8f;
+            margin-right: 6px;
+            transition: transform 0.2s;
+        }
+        .faq-note details[open] summary::before {
+            content: "▾ ";
+        }
+        .faq-note details p {
+            font-size: 0.92rem;
+            color: #4a4a4a;
+            padding-left: 1.6rem;
+            margin-top: 0.2rem;
+        }
+        .closing {
+            margin-top: 3rem;
+            font-size: 0.95rem;
+            color: #5a5a5a;
+            border-left: 2px solid #d2d2d2;
+            padding-left: 1rem;
+            max-width: 500px;
+        }
+        @media (max-width: 480px) {
+            body {
+                padding: 1.5rem 1rem;
+            }
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+            .feature-item {
+                padding-left: 1rem;
+            }
+            .scenario-block {
+                padding: 1.4rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <p>从一次好奇开始</p>
+            <h1>遇到一个看起来有用的网站，你想先知道它到底是做什么的。</h1>
+            <div class="sub">快速确认它的用途，不必在页面上来回猜测——这是多数人打开陌生网址时的本能反应。</div>
+        </div>
+
+        <div class="intro-text">
+            当你来到 <a href="https://cns-betvictor.com">betvictor</a>，很可能第一眼就想弄明白：这个平台覆盖哪些场景、以什么方式运作、是否适合自己。与其被繁复的术语淹没，不如从几个实际的侧面来观察它——清晰的功能划分，往往比自说自话的宣传更有说服力。
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>· 场景识别优先</h3>
+                <p>不需要先注册再了解——入口处就能看到平台主要面向哪些活动类型，方便你判断是否符合自己的兴趣范围。</p>
+            </div>
+            <div class="feature-item">
+                <h3>· 信息组织方式</h3>
+                <p>导航和分类尽量靠近常识逻辑，避免堆砌行话。无论你是想快速浏览还是仔细比对，层级清晰比花哨的动效更重要。</p>
+            </div>
+            <div class="feature-item">
+                <h3>· 操作路径</h3>
+                <p>从了解功能到实际使用，中间步骤被有意缩减。不需要经过多层跳转才找到核心模块——这也是很多初次访问者最在意的细节。</p>
+            </div>
+        </div>
+
+        <div class="scenario-block">
+            <div class="label">一个常见的想法</div>
+            <p>“我点开这个链接，是想看看它是不是我需要的。如果首页能让我在三五秒内回答‘是’或‘不是’，就已经节省了精力。” 基于这种直觉，<a href="https://cns-betvictor.com" style="color: #1b4d3d; text-decoration: underline; text-underline-offset: 2px;">betvictor</a> 的页面结构试图让新用户先理解轮廓，再深入细节。</p>
+        </div>
+
+        <div class="faq-note">
+            <details>
+                <summary>为什么我第一眼没看到具体的功能列表？</summary>
+                <p>很多网站倾向于用大段描述介绍自己，但有时简洁的入口反而更容易让人聚焦。你可以通过主要导航或页面中段的卡片来快速获取核心模块的概览。</p>
+            </details>
+            <details>
+                <summary>这个平台适合完全没接触过类似服务的人吗？</summary>
+                <p>页面上的引导和说明尽量保持平实，没有默认你具备背景知识。如果你对某个术语有疑问，通常可以借助上下文推测其含义——这也是界面设计有意为之。</p>
+            </details>
+            <details>
+                <summary>移动端浏览体验如何？</summary>
+                <p>在手机或平板等窄屏设备上，布局会自适应调整，文字大小和点击区域都做了优化，不必费劲放大或横向滚动。</p>
+            </details>
+        </div>
+
+        <div class="closing">
+            识别一个陌生网站的核心用途，不必把它变成一次信息勘测。当每个部分都指向同一个清晰的意图，浏览本身就是答案。
+        </div>
+    </div>
+</body>
+</html>
